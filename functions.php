@@ -63,6 +63,7 @@ function twentyseventeen_setup() {
 		array(
 			'top'    => __( 'Top Menu', 'twentyseventeen' ),
 			'social' => __( 'Social Links Menu', 'twentyseventeen' ),
+			'original-menu' => 'オリジナルヘッダーメニュー',
 		)
 	);
 

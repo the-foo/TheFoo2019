@@ -29,6 +29,8 @@
 	<header id="masthead" class="site-header" role="banner">
 
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
+		<h1 class="top_logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="ここにロゴ画像のURLを入れます" alt="サイトタイトルを入れます"></a></h1>
+
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
