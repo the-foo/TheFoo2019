@@ -99,6 +99,26 @@ body{
 	background: white;
 	position: absolute;
 }
+.top_logo {
+	padding-top:20px;
+	z-index:30;
+	position:fixed;
+	font-size: 1.4rem;
+	display: block;
+	float:left !important;
+	margin-left: 30%;
+}
+
+.main-navigation{
+	/*padding-left:150px;*/
+	float: right;
+	max-width: 100% !important;
+}
+.wrap{
+	margin:0;
+	max-width:100%;
+	padding: 0 0 0 0;
+}
 /*----------------------------------- My Settingここまで ------------------------------------------------ */
 
 
